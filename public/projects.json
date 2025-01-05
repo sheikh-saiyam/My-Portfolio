@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "GarirKhoj.com",
+    "image": "/projects/project3.png",
+    "hoverImage": "/projects/hoverImg (1).png",
+    "description": "A car rental system providing seamless bookings, user authentication, and efficient inventory management.",
+    "Purpose": "GarirKhoj.com aims to simplify car rentals with a seamless booking process, secure user authentication, and efficient inventory management. Leveraging modern technology, we provide a user-friendly platform that ensures convenience and reliability for all car rental needs. 🚗",
+    "technologies": [
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "JWT Token",
+      "more....."
+    ],
+    "keyFeatures": [
+      "1. Car Management: Users can Add, Update, and Delete Cars listed for rental.",
+      "2. Car Search & Sorting: Users can Search based on car model & sort cars by added date & rental price.",
+      "3. Car Booking: Users can Book Cars based on their availability.",
+      "4. Real-time Updates: The system provides real-time updates on car availability and booking statuses.",
+      "5. JWT Authentication: JWT-based secure sessions for users, and secure APIs are protected.",
+      "6. Responsive Design: Fully responsive UI built with React.js and Tailwind CSS. Optimized for both mobile and desktop users."
+    ],
+    "npmPackages": [
+      "React-datepicker",
+      "React-simple-typewriter",
+      "React Fast Marquee",
+      "React icons",
+      "SweetAlert2",
+      "React-toastify",
+      "Swiper",
+      "Axios"
+    ],
+    "githubRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
+    "serverRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
+    "liveLink": "http://saiyam-assignment11.netlify.app"
+  },
+  {
+    "id": 2,
+    "name": "Game-Chill",
+    "image": "/projects/project2.png",
+    "hoverImage": "/projects/hoverImg (3).png",
+    "description": "An interactive platform for gamers to explore and share games reviews.",
+    "Purpose": "Game-Chill is your ultimate gaming companion, providing a seamless platform for managing your game collection and reviews. With powerful features like a fully functional CRUD system, secure user authentication, and a dynamic genre filter, Game-Chill ensures an organized, personalized, and engaging experience for gamers. Whether you're adding reviews, curating your watchlist, or exploring new games, Game-Chill's responsive design guarantees a smooth experience across all devices. Dive into a world of gaming with ease, all in one place!",
+    "technologies": [
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "Context API",
+      "more..."
+    ],
+    "keyFeatures": [
+      "1. 🔄 CRUD System: Fully functional Create, Read, Update, and Delete system for managing your games and reviews.",
+      "2. 🔒 User Authentication: Secure login and signup options to personalize your gaming experience.",
+      "3. ⭐ Add Reviews: Share your thoughts by writing reviews for games in your collection.",
+      "4. 📝 WatchList Management: Add games reviews to your watchList",
+      "5. 🎮 Filter by Genre: Narrow down game options with a dynamic filter system based on genres like Action, Adventure, RPG, etc.",
+      "6. Mobile Optimization: Responsive design ensures a seamless experience across devices."
+    ],
+    "npmPackages": [
+      "React Awesome reveal",
+      "React-simple-typewrite",
+      "React Fast Marque",
+      "React icon",
+      "SweetAlert",
+      "Animate.css"
+    ],
+    "githubRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
+    "serverRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
+    "liveLink": "http://saiyam-assignment10.netlify.app"
+  },
+  {
+    "id": 3,
+    "name": "ToTo-Coupon",
+    "image": "/projects/project1.png",
+    "hoverImage": "/projects/hoverImg (2).png",
+    "description": "A platform that allows users to copy and use exclusive coupons after logging in with Firebase authentication.",
+    "Purpose": "ToTo-Coupon is a simple coupon-collecting application developed to help users easily find and use discount coupons for popular e-commerce shops in Bangladesh. It provides users with exclusive discounts and promotional codes .",
+    "technologies": [
+      "React.js",
+      "Firebase",
+      "Tailwind CSS",
+      "daisyUI",
+      "more..."
+    ],
+    "keyFeatures": [
+      "1. Exclusive Coupons: Access a wide range of verified discount coupons for popular e-commerce platforms in Bangladesh.",
+      "2. User-Friendly Interface: Intuitive design for effortless browsing and finding the best deals.",
+      "3. Firebase Authentication: Secure user login and sign up system powered by Firebase for personalized experiences.",
+      "4. Copy and Use Coupons: Logged-in users can easily copy coupon codes with a single click .",
+      "5. Mobile Optimization: Responsive design ensures a seamless experience across devices."
+    ],
+    "npmPackages": [
+      " React-Toastify",
+      " Animate.css",
+      " React Fast Marquee",
+      " React icons",
+      " React-Helmet",
+      " React-simple-typewriter",
+      " SweetAlert2"
+    ],
+    "githubRepo": "https://github.com/sheikh-saiyam/PH-B10-Assignment9",
+    "liveLink": "http://saiyam-assignment9.netlify.app"
+  }
+]
