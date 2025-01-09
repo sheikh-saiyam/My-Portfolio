@@ -88,7 +88,7 @@ const Skills = () => {
 
       {/* front-end */}
       <div className="border-t border-grayText mt-8">
-        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border text-center">
+        <div className="mb-8 text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border border-t-0 text-center">
           <span className="text-grayText font-bold tracking-widest">
             Front-end
           </span>
@@ -134,7 +134,7 @@ const Skills = () => {
 
       {/* Back-end */}
       <div className="border-t border-grayText mt-16">
-        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border text-center">
+        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border border-t-0 text-center">
           <span className="text-grayText font-bold tracking-widest">
             Back-end
           </span>
@@ -162,7 +162,7 @@ const Skills = () => {
 
       {/* tools */}
       <div className="border-t border-grayText mt-16">
-        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border text-center">
+        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border border-t-0 text-center">
           <span className="text-grayText font-bold tracking-widest">Tools</span>
         </div>
         <div className="grid gap-4 h-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">

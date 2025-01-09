@@ -85,7 +85,7 @@ const ProjectDetails = () => {
             {serverRepo && (
               <div>
                 <a
-                  href={githubRepo}
+                  href={serverRepo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center w-1/2 md:w-full mx-auto items-center gap-2 py-1 px-2 md:py-2 md:px-4 text-sm md:text-base rounded-none border border-primaryText text-white hover:bg-primaryText hover:bg-opacity-20"

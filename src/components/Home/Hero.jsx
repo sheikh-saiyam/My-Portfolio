@@ -66,9 +66,14 @@ const Hero = () => {
               <hr className="w-px h-4 md:h-6 lg:h-8 border-l-2 border-grayText" />
             </div>
             <div className="flex flex-col items-center justify-center gap-y-1 text-grayText hover:text-primaryText duration-300">
-              <button className="text-2xl">
+              <a
+                href={"https://www.linkedin.com/in/sheikh-saiyam"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl"
+              >
                 <FaLinkedin />
-              </button>
+              </a>
               <hr className="w-px h-4 md:h-6 lg:h-8 border-l-2 border-grayText" />
             </div>
             <div className="flex flex-col items-center justify-center gap-y-2 text-grayText hover:text-primaryText duration-300">

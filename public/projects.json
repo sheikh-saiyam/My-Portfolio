@@ -69,9 +69,9 @@
       "SweetAlert",
       "Animate.css"
     ],
-    "githubRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
-    "serverRepo": "https://docs.google.com/document/d/17AMRJwMODozoKeJd4M-Soeb1kSHxb38fkBgfaB8DEe8/edit?usp=sharing",
-    "liveLink": "http://saiyam-assignment10.netlify.app"
+    "githubRepo": "https://github.com/sheikh-saiyam/Game-Chill-Client",
+    "serverRepo": "https://github.com/sheikh-saiyam/Game-Chill-Server",
+    "liveLink": "http://game-chill.netlify.app"
   },
   {
     "id": 3,
@@ -103,7 +103,7 @@
       " React-simple-typewriter",
       " SweetAlert2"
     ],
-    "githubRepo": "https://github.com/sheikh-saiyam/PH-B10-Assignment9",
+    "githubRepo": "https://github.com/sheikh-saiyam/Toto-Coupon",
     "liveLink": "http://saiyam-assignment9.netlify.app"
   }
 ]
