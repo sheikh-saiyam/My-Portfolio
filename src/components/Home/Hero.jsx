@@ -47,7 +47,7 @@ const Hero = () => {
             </h1>
             <a
               target="_blank"
-              href="https://docs.google.com/document/d/1fInU9-HI7_4FmezmKbJenxyyVhNRif_sn16RuVlAZ-4/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1tY0Gbj4WVQCAZgiP6C3E5IGff6qE7SuP/view"
             >
               <PrimaryButton text={"Download Resume"}></PrimaryButton>
             </a>
