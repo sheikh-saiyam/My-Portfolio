@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <div className="bg-secondBgColor sticky top-0 z-50">
-      <div className="w-11/12 mx-auto md:w-10/12 max-w-[1270px] py-6 flex justify-between items-center  border-b border-grayText">
+      <div className="w-11/12 mx-auto md:w-10/12 max-w-[1270px] py-10 flex justify-between items-center  border-b border-grayText">
         {/* img div */}
         <div>
           <NavLink to={"/"}>
