@@ -10,12 +10,14 @@ const Projects = () => {
     <div id="projects" className="pb-20">
       {/* section header */}
       <Header header={"Projects"} />
+      
       {/* projects */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {projects.slice(0, 3).map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
+
       {/* View More Button */}
       <div className="mt-12 w-2/3 md:w-1/2 lg:w-1/3 mx-auto">
         <Link
