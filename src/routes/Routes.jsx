@@ -2,19 +2,24 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import HomeLayout from "../layouts/HomeLayout";
 import ProjectDetails from "../pages/ProjectDetails";
+import Projects from "../pages/Projects";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout></MainLayout>,
+    element: <MainLayout />,
     children: [
       {
         path: "/",
-        element: <HomeLayout></HomeLayout>,
+        element: <HomeLayout />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
       {
         path: "/project-details/:id",
-        element: <ProjectDetails></ProjectDetails>,
+        element: <ProjectDetails />,
         loader: async ({ params }) => {
           const response = await fetch("/projects.json");
           const projects = await response.json();

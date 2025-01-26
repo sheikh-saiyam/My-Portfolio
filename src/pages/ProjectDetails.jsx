@@ -13,6 +13,7 @@ const ProjectDetails = () => {
       behavior: "smooth",
     });
   });
+
   const ProjectDetails = useLoaderData();
   const {
     name,
@@ -27,16 +28,18 @@ const ProjectDetails = () => {
     liveLink,
   } = ProjectDetails;
   const sliderImages = [image, hoverImage];
+  
   const sliderSettings = {
-    dots: false, // Show navigation dots
-    infinite: true, // Infinite scrolling
-    speed: 500, // Transition speed
-    slidesToShow: 1, // Number of slides to show
-    slidesToScroll: 1, // Number of slides to scroll
-    autoplay: true, // Autoplay slides
-    autoplaySpeed: 5000, // Autoplay delay
-    arrows: true, // Show next/prev arrows
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: true,
   };
+
   return (
     <div className="mx-auto w-10/12 lg:w-9/12 xl:w-8/12 max-w-[1020px] py-20">
       <Header header={name} />
