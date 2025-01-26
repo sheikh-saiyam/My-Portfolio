@@ -1,7 +1,9 @@
 import Header from "../shared/Section/Header";
+import SkillCard from "./../Card/SkillCard";
 
 const Skills = () => {
   const skills = [
+    // Front-end skills --->
     {
       name: "HTML",
       icon: "https://skillicons.dev/icons?i=html",
@@ -15,18 +17,19 @@ const Skills = () => {
     {
       name: "JavaScript",
       icon: "https://skillicons.dev/icons?i=js",
-      progress: 80,
+      progress: 70,
     },
     {
       name: "React.js",
       icon: "https://skillicons.dev/icons?i=react",
-      progress: 70,
+      progress: 60,
     },
     {
       name: "Firebase",
       icon: "https://skillicons.dev/icons?i=firebase",
       progress: 75,
     },
+    // Back-end skills --->
     {
       name: "Node.js",
       icon: "https://skillicons.dev/icons?i=nodejs",
@@ -37,11 +40,15 @@ const Skills = () => {
       icon: "https://skillicons.dev/icons?i=mongodb",
       progress: 50,
     },
-
     {
       name: "Express.js",
       icon: "https://skillicons.dev/icons?i=express",
       progress: 45,
+    },
+    {
+      name: "Next.js",
+      icon: "https://skillicons.dev/icons?i=nextjs",
+      progress: 30,
     },
   ];
 
@@ -84,7 +91,6 @@ const Skills = () => {
     <div id="skills" className="pb-20">
       {/* section header */}
       <Header header={"Skills"}></Header>
-      {/* all skills */}
 
       {/* front-end */}
       <div className="border-t border-grayText mt-8">
@@ -95,38 +101,12 @@ const Skills = () => {
         </div>
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {skills.slice(0, 3).map((skill, index) => (
-            <div key={index}>
-              <div className="border px-6 py-2 border-grayText flex w-fit items-center gap-4">
-                <img src={skill.icon} alt={skill.name} />
-                <h1 className="text-grayText text-2xl">{skill.name}</h1>
-              </div>
-              <div className="flex border border-grayText p-2 items-center text-white gap-4 justify-center">
-                <progress
-                  className="progress text-grayText bg-black w-56"
-                  value={skill.progress}
-                  max="100"
-                />
-                <h1>{skill.progress}%</h1>
-              </div>
-            </div>
+            <SkillCard key={index} skill={skill} />
           ))}
         </div>
         <div className="mt-8 flex gap-6 flex-wrap w-full items-center justify-center">
           {skills.slice(3, 5).map((skill, index) => (
-            <div key={index} className="w-full md:w-fit">
-              <div className="border px-6 py-2 border-grayText flex w-fit items-center gap-4">
-                <img src={skill.icon} alt={skill.name} />
-                <h1 className="text-grayText text-2xl">{skill.name}</h1>
-              </div>
-              <div className="flex border border-grayText p-2 items-center text-white gap-4 justify-center">
-                <progress
-                  className="progress text-grayText bg-black w-56"
-                  value={skill.progress}
-                  max="100"
-                />
-                <h1>{skill.progress}%</h1>
-              </div>
-            </div>
+            <SkillCard key={index} skill={skill} />
           ))}
         </div>
       </div>
@@ -139,22 +119,9 @@ const Skills = () => {
             Back-end
           </span>
         </div>
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex gap-6 items-center flex-wrap justify-center w-full">
           {skills.slice(5).map((skill, index) => (
-            <div key={index}>
-              <div className="border px-6 py-2 border-grayText flex w-fit items-center gap-4">
-                <img src={skill.icon} alt={skill.name} />
-                <h1 className="text-grayText text-2xl">{skill.name}</h1>
-              </div>
-              <div className="flex border border-grayText p-2 items-center text-white gap-4 justify-center">
-                <progress
-                  className="progress text-grayText bg-black w-56"
-                  value={skill.progress}
-                  max="100"
-                />
-                <h1>{skill.progress}%</h1>
-              </div>
-            </div>
+            <SkillCard key={index} skill={skill} />
           ))}
         </div>
       </div>
@@ -177,8 +144,6 @@ const Skills = () => {
         </div>
       </div>
       {/* tools */}
-
-      {/* all skills */}
     </div>
   );
 };
