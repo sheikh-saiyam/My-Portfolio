@@ -99,13 +99,8 @@ const Skills = () => {
             Front-end
           </span>
         </div>
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {skills.slice(0, 3).map((skill, index) => (
-            <SkillCard key={index} skill={skill} />
-          ))}
-        </div>
-        <div className="mt-8 flex gap-6 flex-wrap w-full items-center justify-center">
-          {skills.slice(3, 5).map((skill, index) => (
+        <div className="flex gap-6 md:gap-8 flex-wrap w-full items-center justify-center">
+          {skills.slice(0, 5).map((skill, index) => (
             <SkillCard key={index} skill={skill} />
           ))}
         </div>
@@ -114,12 +109,12 @@ const Skills = () => {
 
       {/* Back-end */}
       <div className="border-t border-grayText mt-16">
-        <div className="mb-8  text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border border-t-0 text-center">
+        <div className="mb-8 text-base md:text-lg py-2 px-6 w-fit mx-auto rounded-none border-grayText border border-t-0 text-center">
           <span className="text-grayText font-bold tracking-widest">
             Back-end
           </span>
         </div>
-        <div className="flex gap-6 items-center flex-wrap justify-center w-full">
+        <div className="flex gap-6 md:gap-8 items-center flex-wrap justify-center w-full">
           {skills.slice(5).map((skill, index) => (
             <SkillCard key={index} skill={skill} />
           ))}
