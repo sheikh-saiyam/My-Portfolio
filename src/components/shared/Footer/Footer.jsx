@@ -10,9 +10,9 @@ const Footer = () => {
           </h1>
           <h1 className="text-lg text-white flex justify-center mt-2 tracking-wide">
             <span className="wavey-typewriter">
-              <span className="text-primaryText hidden md:inline">-------</span>
+              <span className="text-primaryText hidden md:inline">------- </span>
               A Web Developer
-              <span className="text-primaryText hidden md:inline">-------</span>
+              <span className="text-primaryText hidden md:inline"> -------</span>
             </span>
           </h1>
         </div>

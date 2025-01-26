@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../../../assets/PortfolioLogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
@@ -16,7 +15,11 @@ const Navbar = () => {
         {/* img div */}
         <div>
           <NavLink to={"/"}>
-            <img className="w-[100px] h-16" src={logo} alt="" />
+            <h1 className="text-2xl text-center text-white tracking-widest font-bold">
+              <span className="text-primaryText">{"<"}</span>Sh
+              <span className="text-primaryText">ei</span>kh Saiy
+              <span className="text-primaryText">am{"/>"}</span>
+            </h1>
           </NavLink>
         </div>
         {/* img div */}
