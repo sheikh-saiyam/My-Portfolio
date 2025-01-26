@@ -9,7 +9,7 @@ Welcome to my personal portfolio website! 🎉 Explore my journey as a **Web Dev
 ## 🚀 About Me
 
 Hi, I'm **Sheikh Saiyam**, a passionate **Web Developer** specializing in **Front-End Development**.  
-I thrive on solving complex problems and building user-friendly, responsive web applications. Currently, I'm expanding my expertise into **Back-End Development** with technologies like **Node.js**, **Express.js**, and **MongoDB**.
+I thrive on solving complex problems and building user-friendly, responsive web applications. Currently, I'm expanding my expertise into **Back-End Development** with technologies like **Node.js**, **Express.js**, **MongoDB**, and **Next.js**.
 
 ### Highlights:
 - Proficient in **HTML**, **CSS**, **JavaScript**, **React.js**, and **Firebase**.
@@ -24,7 +24,7 @@ I thrive on solving complex problems and building user-friendly, responsive web 
 - **HTML**, **CSS**, **JavaScript**, **React.js**
 
 ### Back-End
-- **Node.js**, **MongoDB**, **Express.js**
+- **Node.js**, **MongoDB**, **Express.js**, **Next.js**
 
 ### Tools
 - **Git**, **GitHub**, **Figma**, **Postman**, **Netlify**, **Vercel**
